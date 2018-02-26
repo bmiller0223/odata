@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        .results { border: 2px solid gray;
+                   font-family: 'Courier New';
+                   padding: 5px;
+                   margin-bottom: 15px;
+        }
+        body {
+            padding: 15px;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title>OData Examples</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="startup.js"></script>
+
+</head>
+<body>
+
+    <div>OData output using Model built using the Model Builder</div>
+    <div class="results" id="odataresult">Loading...</div>
+
+    <div>OData output using Model built from csdl xml files</div>
+    <div>***Note: the values from the $expand are not showing in the results***</div>
+    <div class="results" id="badodataresult">Loading...</div>
+    <div class="results">
+        Source code: <a href="http://tfs:8080/tfs/EcoSys/Framework/_versionControl?path=%24%2FFramework%2FPoC%2FOdataContactMethodsDemoSite-NewOData%2FContactMethodsDemoSite&version=T&_a=contents" target="_new" >Tfs Framework POC</a>
+    </div>
+</body>
+
+</html>
